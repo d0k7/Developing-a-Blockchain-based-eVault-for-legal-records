@@ -1,23 +1,56 @@
-Overview
 
-The Blockchain-Based E-Vault System is a secure and decentralized platform designed for storing legal records using blockchain technology. This repository contains the codebase and implementation details for the system.
+# Developing a Blockchain-based-eVault-for-legal-records
+## Overview
+The Blockchain Based E-Vault System is a cutting-edge platform that capitalizes on blockchain technology's decentralized nature, particularly leveraging Ethereum's blockchain. Its primary objective is to provide a secure and decentralized system for uploading, storing, and sharing images. By integrating the InterPlanetary File System (IPFS), the project ensures images are stored in a distributed manner, offering immutability and robustness against data tampering.
 
-Features
+The core functionality revolves around using Solidity smart contracts within the Ethereum blockchain. These smart contracts facilitate ownership management and access control over the uploaded images. Users can securely upload their images to the IPFS network and specify access permissions through smart contract functionality, allowing or revoking access to specific individuals.
+## Features
 
-Decentralized Storage: Utilizes IPFS (InterPlanetary File System) for decentralized and immutable storage of legal records. Smart Contracts: Implements Solidity smart contracts on the Ethereum blockchain for access control and ownership management. Access Control: Enables users to grant or revoke access to their uploaded records through smart contracts.
+- Decentralized Storage: Utilizes IPFS (InterPlanetary File System) for decentralized and immutable storage of legal records.
+- Smart Contracts: Implements Solidity smart contracts on the Ethereum blockchain for access control and ownership management.
+- Access Control: Enables users to grant or revoke access to their uploaded records through smart contracts.
 
-Technologies Used
 
-Solidity: Smart contract development for ownership and access control. React: Frontend interface for uploading records and managing access. IPFS: Decentralized storage protocol for hosting uploaded records. Hardhat: Development environment for Ethereum smart contracts.
+## Technologies Used
 
-Setup and Usage
+1.	Solidity: Back-end Smart contract development for ownership and access control 
+2.	React: Front-end interface for uploading images and managing access.
+3.	IPFS: Decentralized storage protocol for hosting uploaded images (pinata)
+4.	Hardhat: Hardhat is a development environment for Ethereum software.
+5.	Ether.js: A complete and compact library for interacting with the Ethereum Blockchain and its ecosystem.
+6.	Meta Mask: It is cryptocurrency wallet.
+## Installation
 
-Installation: Clone the repository and install necessary dependencies using npm install.
+1. Install the dependencies:
+- Hardhat
+```bash
+npm install save-dev hardhat@2.12.4
+```
+- React App
+```bash
+npm install create-react-app
+```
 
-Configuration: Set up environment variables, obtain API keys for Pinata, and update React components with Pinata API keys.
+2. Run the app:
+- For run the React
+```bash
+npm start
+```
+- For run the Blockchain
+```bash
+npx hardhat node
+```
 
-Running the Application: Start the React application using npm start. Ensure MetaMask is installed and configured for Ethereum interactions.
 
-Interacting with the System: Follow the instructions in the application to upload records, manage access, and utilize MetaMask for Ethereum transactions.
 
-Contributors Dheeraj Mishra (https://github.com/d0k7) Saquib Hussain (https://github.com/Hussainaquib)
+
+    
+## Setup and Usage
+- Installation: Clone the repository and install necessary dependencies using npm install.
+- Configuration: Set up environment variables, obtain API keys for Pinata, and update React components with Pinata API keys.
+- Running the Application: Start the React application using npm start. Ensure MetaMask is installed and configured for Ethereum interactions.
+- Interacting with the System: Follow the instructions in the application to upload records, manage access, and utilize MetaMask for Ethereum transactions.
+## Contributors
+
+- [Dheeraj Mishra](https://www.linkedin.com/in/dheeraj-mishra-535784249/)
+- [Saquib Hussain](https://www.linkedin.com/in/saquib-hussain-976b9423a/)
